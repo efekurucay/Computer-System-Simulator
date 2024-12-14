@@ -1,46 +1,51 @@
-# Bilgisayar Sistem Simülatörü
+# About
+This project was created as part of an assignment or coursework for CSE102 Computer Programming. As a first-year Computer Engineering student, I developed this project to enhance my skills in software development and algorithm design.
 
-Bu proje, temel bir bilgisayar sistemini simüle eden basit bir programdır. CPU, RAM ve Sabit Disk gibi temel donanım bileşenlerinin çalışmasını gösterir.
+If you're reviewing this project, your feedback or suggestions would be greatly appreciated. Thank you!
 
-## Özellikler
+# Computer System Simulator
 
-- CPU simülasyonu (hız, sıcaklık ve kullanım takibi)
-- RAM simülasyonu (veri yazma/okuma)
-- Sabit Disk simülasyonu (dosya kaydetme/okuma)
-- Temel bilgisayar işlemleri:
-  - Açma/Kapama
-  - Program çalıştırma
-  - Dosya kaydetme
-  - Sistem durumu görüntüleme
+This project is a simple program that simulates a basic computer system. It demonstrates the operation of fundamental hardware components such as CPU, RAM, and Hard Disk.
 
-## Kullanım
+## Features
 
-Program çalıştırıldığında menüden istenen işlem seçilir:
+- CPU simulation (speed, temperature, and usage tracking)
+- RAM simulation (data writing/reading)
+- Hard Disk simulation (file saving/reading)
+- Basic computer operations:
+  - Power On/Off
+  - Run Program
+  - Save File
+  - Display System Status
 
-1. Bilgisayarı Aç: Sistemi başlatır
-2. Bilgisayarı Kapat: Sistemi kapatır
-3. Program Çalıştır: RAM'e program yükler ve CPU'da işler
-4. Dosya Kaydet: Sabit diske dosya kaydeder
-5. Sistem Durumunu Göster: Tüm bileşenlerin durumunu gösterir
-6. Çıkış: Programı sonlandırır
+## Usage
 
-## Teknik Detaylar
+When the program is run, the desired operation is selected from the menu:
 
-- Java 8 ile geliştirilmiştir
-- Maven kullanılarak derlenebilir
-- Konsoldan kullanıcı girişi alır
-- Simüle edilen sistem özellikleri:
+1. Power On: Starts the system
+2. Power Off: Shuts down the system
+3. Run Program: Loads a program into RAM and processes it on the CPU
+4. Save File: Saves a file to the hard disk
+5. Display System Status: Shows the status of all components
+6. Exit: Terminates the program
+
+## Technical Details
+
+- Developed with Java 8
+- Can be compiled using Maven
+- Takes user input from the console
+- Simulated system specifications:
   - 2000 MHz CPU
   - 1024 MB RAM
-  - 500 GB Sabit Disk
+  - 500 GB Hard Disk
 
-## Derleme ve Çalıştırma
+## Compilation and Execution
 
 ```bash
 mvn clean compile
 mvn exec:java -Dexec.mainClass="com.computer.Main"
 ```
 
-## Yazar
+## Author
 
 Yahya Efe Kuruçay
